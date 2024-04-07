@@ -25,12 +25,14 @@ public class Main {
         System.out.println("Obwód kolorowego koła: " + coloredCircle.calculatePerimeter());
         System.out.println("Pole powierzchni kolorowego koła: " + coloredCircle.calculateArea());
         System.out.println("Kolor koła: " + coloredCircle.getColor());
-
+        
+        // Rectangle
         Rectangle rectangle = new Rectangle(5.0, 10.0);
         System.out.println("zad5");
         System.out.println("Pole powierzchni prostokąta: " + rectangle.calculateArea());
         System.out.println("Obwód prostokąta: " + rectangle.calculatePerimeter());
 
+        // Square
         Square square = new Square(5.0);
         System.out.println("zad6");
         System.out.println("Długość boku kwadratu: " + square.getSide()); 
