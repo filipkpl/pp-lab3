@@ -1,6 +1,10 @@
-package geometry;
 
-public class calculate {
+
+import geometry.Circle;
+import geometry.ColoredCircle;
+import geometry.Point;
+
+public class tablica {
     public static void main(String[] args) {
 
         Circle[] circles = new Circle[] {
