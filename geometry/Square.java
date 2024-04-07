@@ -4,10 +4,8 @@ public class Square extends Rectangle {
         super(side, side);
     }
 
-    // Dodatkowa metoda nie jest potrzebna, ponieważ getWidth() lub getLength() z Rectangle mogą być użyte
-    // Jeśli jednak chcesz jawnie dodać metodę dla czytelności:
     public double getSide() {
-        return getWidth(); // Możesz użyć getWidth() lub getLength(), ponieważ w kwadracie są one równe
+        return getWidth(); 
     }
 
     @Override
