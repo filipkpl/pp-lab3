@@ -1,3 +1,4 @@
+package geometry;
 public class Circle {
     private Point center;
     private double radius;
@@ -28,4 +29,3 @@ public class Circle {
         return "Koło[środek=" + center + ", promień=" + radius + "]";
     }
 }
-
