@@ -1,3 +1,4 @@
+package geometry;
 public class Rectangle {
     private double length;
     private double width;
@@ -7,6 +8,14 @@ public class Rectangle {
         this.width = width;
     }
 
+    public double getLength() {
+        return length;
+    }
+
+    public double getWidth() {
+        return width;
+    }
+
     public double calculateArea() {
         return length * width;
     }
@@ -14,7 +23,7 @@ public class Rectangle {
     public double calculatePerimeter() {
         return 2 * (length + width);
     }
-    
+
     @Override
     public String toString() {
         return "Prostokąt[length=" + length + ", width=" + width + "]";
